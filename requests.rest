@@ -7,6 +7,6 @@ POST http://127.0.0.1:5000/api/todos
 content-type: application/json
 
 {
-    "title": "Build a REST API",
+    "title": "On the server",
     "completed": false
 }
