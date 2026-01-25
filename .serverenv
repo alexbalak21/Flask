@@ -1,0 +1,11 @@
+# SERVER CONFIG
+FLASK_APP=app.py
+FLASK_ENV=development
+CORS_ALLOWED_ORIGINS=http://localhost:5173,http://localhost:3000
+MYSQL_HOST=mysql-alexb.alwaysdata.net
+MYSQL_PORT=3306
+MYSQL_USER=alexb
+MYSQL_PASSWORD=D@4dz5F8%ETqLg%wrcLa56T
+MYSQL_DB=alexb_db
+JWT_SECRET_KEY=MSp+NpPYx21vbaYn2qSK5xTmPRXy7KPnIRGLxbtxnzI=
+SECRET_KEY=Oa7+CNxpTkO0Ez/PalzZEY1H5UzgYWfGbJ1XvugJHRY=
