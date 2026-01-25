@@ -1,13 +1,10 @@
-FLASK_APP=app
+FLASK_APP=app.py
 FLASK_DEBUG=1
 FLASK_ENV=development
 FLASK_RUN_PORT=5000
-# CORS_ALLOWED_ORIGINS=http://localhost:5173,http://localhost:3000
-MYSQL_HOST=localhost
+MYSQL_HOST=mysql-alexb.alwaysdata.net
 MYSQL_PORT=3306
-MYSQL_USER=root
-MYSQL_PASSWORD=
-MYSQL_DB=flask
-
-
+MYSQL_USER=alexb
+MYSQL_PASSWORD="D@4dz5F8%ETqLg%wrcLa56T"
+MYSQL_DB=alexb_db
 

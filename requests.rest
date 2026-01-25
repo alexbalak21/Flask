@@ -1,0 +1,12 @@
+### GET ###
+GET http://127.0.0.1:5000/api/todos
+content-type: application/json
+
+### POST ###
+POST http://127.0.0.1:5000/api/todos
+content-type: application/json
+
+{
+    "title": "Build a REST API",
+    "completed": false
+}
