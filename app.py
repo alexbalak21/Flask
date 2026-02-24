@@ -2,11 +2,14 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
+
+FRONTEND_URL = "https://react-app-xl0h.onrender.com"
+
+CORS(app, origins=[FRONTEND_URL])
 
 @app.route("/")
 def hello_world():
-    return "<h1>Flask App v5 with CORS enabled</h1>"
+    return "<h1>Hello from Flask</h1>"
 
 @app.route("/api/message", methods=["GET"])
 def get_message():
