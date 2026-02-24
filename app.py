@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route("/")
 def hello_world():
-    return "<h1>Hello from Flask</h1>"
+    return "<h1>Flask App v5 with CORS enabled</h1>"
 
 @app.route("/api/message", methods=["GET"])
 def get_message():
