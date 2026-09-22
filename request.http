@@ -1,0 +1,36 @@
+@baseUrl = http://127.0.0.1:5000
+
+
+### GET ALL
+GET {{baseUrl}}/item
+Content-Type: application/json
+
+### GET ONE
+GET {{baseUrl}}/item/4
+Content-Type: application/json
+
+
+### POST ONE
+POST {{baseUrl}}/item
+Content-Type: application/json
+
+{
+    "name" : "Smart Watch",
+    "price" : 150
+}
+
+
+### PATCH ONE
+PATCH {{baseUrl}}/item/7
+Content-Type: application/json
+
+{
+    "name" : "Smart Watch",
+    "price" : 175
+}
+
+
+
+### DELETE ONE
+DELETE {{baseUrl}}/item/4
+Content-Type: application/json
